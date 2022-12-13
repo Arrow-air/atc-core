@@ -1,0 +1,11 @@
+[package]
+edition = "2021"
+name    = "atc-core"
+version = "0.1.0"
+
+[lib]
+crate-type = ["cdylib", "staticlib"]
+
+[dependencies]
+gdnative = "0.11.0"
+uuid     = { version = "1.2.2", features = ["v4"] }
